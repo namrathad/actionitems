@@ -1,0 +1,16 @@
+sparkles Add Workspace support introduced in Code 1.18. Fixes #29 (#40)
+
+* wrench Move to vscode 1.18 and add scope to settings
+
+* sparkles Read settings based on document URI
+
+* sparkles Move away from workspace.rootPath
+
+* bug Update settings after workspace picker
+
+* wrench Disable prettier on JSON to changes on every npm install
+
+* Read settings based on current URI.
+Use Uri.fsPath instead of Uri.path in order to work properly on Windows.
+
+* Fixed typing errors
